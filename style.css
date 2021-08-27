@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;500&family=Lexend+Deca:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
+body{
+    background-color:hsl(0, 0%, 85%);
+    height: 100vh;
+}
+.main-containeer {
+    display: flex;
+    margin: 180px;
+    justify-self: center;
+    border-radius: 0.7rem;
+    overflow: hidden;
+}
+h1{
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-bottom: 40px;
+    color:hsl(0, 0%, 85%);
+    font-weight: 600;
+    
+}
+.box{
+    padding: 32px;
+    height: 100%;
+    min-height: auto;
+}
+.img {
+    height: 32px;
+    width: 48px;
+}
+p {
+    font-family: 'Lexend Deca';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 90px;
+    color:hsl(0, 0%, 85%);
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+.btn {
+    background-color:hsl(0, 0%, 85%);
+    border: hsl(0, 0%, 85%) solid 2px;
+    border-radius: 1.5rem;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Lexend Deca';
+    /* width: 136px; */
+    font-weight: 600;
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+.btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 85%);
+    transition: 0.45s;
+}
+.btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 85%);
+    transition: 0.45s
+}
+.btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 85%);
+    transition: 0.45s
+}
+@media screen and (max-width:854px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .main-containeer {
+        display: grid;
+        grid: 1fr;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .box{
+        margin-bottom: 0px;
+        border-radius: 0rem;
+    }
+    
+}
+

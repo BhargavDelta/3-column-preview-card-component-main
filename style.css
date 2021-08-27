@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
 body{
     background-color:hsl(0, 0%, 85%);
-    height: 100vh;
+    height: 100%;
 }
 .main-containeer {
     display: flex;
